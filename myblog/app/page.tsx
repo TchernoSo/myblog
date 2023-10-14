@@ -3,7 +3,7 @@ import Homepage from "./components/Homepage";
 
 export default function Home() {
   return (
-    <div>
+    <div className="font-serif">
       <Homepage/>
     </div>
     // <main className='flex min-h-screen flex-col bg-black'>

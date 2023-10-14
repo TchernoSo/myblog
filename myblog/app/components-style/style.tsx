@@ -7,7 +7,7 @@ interface StyleProps {
 const Style: React.FC<StyleProps> = ({ children }) => {
   return (
     <div className="min-h-screen flex justify-center">
-      <div className="w-1/2 border p-4 flex flex-col md:flex-row items-start"> 
+      <div className="w-1/2 p-4 flex flex-col md:flex-row items-start"> 
         {children}
       </div>
     </div>
